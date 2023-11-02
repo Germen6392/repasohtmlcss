@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8">
+		<title>Clase 1 - UTN Arg Programa</title>
+		<link rel="stylesheet" href="styles.css">
+		
+	</head>
+
+	<body>
+			
+		<header>
+			<h1>No Pagamos Cooperativa</h1>
+		
+			<h2>Seguros</h2>
+
+			<p class="description">Llevamos 2 años en el mercado ofreciendo el mejor servicio para el hogar y la empresa en la región.</p>
+			<p class="description">Hoy inauguramos esta plataforma para llevarte otra forma de hablar con vos desde la comodidad de tu pc o celular.</p>
+		</header>
+		<section>
+			<h3>Llena estos datos y un asesor se comunicará con vos a la brevedad</h3>
+
+			<h2>Información de Contacto</h2>
+
+			<form>
+				<fieldset class="username">
+
+				
+					<label for="nombre">Nombre:</label>
+
+
+					<input type="text" id="nombre" name="nombre" required>
+        
+
+					<label for="apellido">Apellido:</label>
+
+					<input type="text" id="apellido" name="apellido" required>
+        
+				</fieldset>
+
+				<fieldset class="document">
+
+					<legend>Coloca tu DNI</legend>
+				
+					<label for="dni">Número sin Puntos ni Guiones</label>
+	
+					<input type="text" id="dni" name="dni" placeholder="Ej 99999999" required>
+
+       				</fieldset> 
+
+				<fieldset class="phone-number">
+
+					<legend>Coloca tu número de teléfono celular</legend>
+
+					<label for="telefono">Número con código de área sin el 0 y sin 15</label>
+
+					<input type="tel" id="telefono" name="telefono" placeholder="Ej:3421234567" required>
+        
+				</fieldset>
+			
+				<fieldset class="useremail">
+
+					<label for="email">Email:</label>
+
+					<input type="email" id="email" name="email" placeholder="correo@correo.com" required>
+        			</fieldset>
+
+				<fieldset class="options">
+
+					<label for="select">Selecciona el Tipo de Seguro de tu preferencia:</label><br>
+
+					<input type="radio" id="basico" name="select" value="basico">
+				
+					<label for="basico">Básico</label><br>
+
+					<input type="radio" id="intermedio" name="select" value="intermedio">
+
+					<label for="intermedio">Intermedio</label><br>
+
+					<input type="radio" id="premium" name="select" value="premium" checked>
+
+					<label for="premium">Premium</label><br><br>
+			
+				</fieldset>        
+				<article>
+					<h3>Precio del Plan<span class="plan"> Básico</span></h3>
+					<p class="price">$500</p>
+				</article>
+
+				<input class="submit_button" type="submit" value="Enviar">
+
+			</form>
+
+		</section>
+
+		<footer>
+			<h3>Desarrollado por Germán Rodríguez</h3>
+			<p>Esta página web fue desarrollada con fines educativos. Todos los datos son solo de muestra</p>
+			<p>Agradezco infinitamente a la Universidad Tecnológica Nacional y Argentina Programa por el material y el tiempo brindado para mi formación como programador web</p>
+		</footer>
+		<script src="planes.js"></script>
+	</body>
+</html>
